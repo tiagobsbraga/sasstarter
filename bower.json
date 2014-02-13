@@ -5,6 +5,14 @@
         "type": "git",
         "url": "git://github.com/setetres/sasstarter.git"
     },
+    "keywords": [
+        "html5",
+        "css3",
+        "jquery",
+        "framework",
+        "frontend",
+        "starter"
+    ],
     "ignore": [
         ".gitignore",
         "bower.json",
