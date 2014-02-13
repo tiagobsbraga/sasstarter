@@ -1,0 +1,14 @@
+{
+    "name": "sasstarter",
+    "version": "1.2",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/setetres/sasstarter.git"
+    },
+    "ignore": [
+        ".gitignore",
+        "bower.json",
+        "package.json",
+        "README.md"
+    ]
+}
