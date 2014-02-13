@@ -1,5 +1,9 @@
 {
     "name": "sasstarter",
+     "main": {
+        "css": ["css/main.css", "css/main-responsive.css"],
+        "javascript": ["js/functions.js"]
+    },
     "version": "1.2",
     "repository": {
         "type": "git",
