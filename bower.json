@@ -15,7 +15,6 @@
     ],
     "ignore": [
         ".gitignore",
-        "bower.json",
-        "README.md"
+        "bower.json"
     ]
 }
