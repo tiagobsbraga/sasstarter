@@ -1,10 +1,10 @@
 {
     "name": "sasstarter",
-     "main": {
+    "version": "1.2.0",
+    "main": {
         "css": ["css/main.css", "css/main-responsive.css"],
         "javascript": ["js/functions.js"]
     },
-    "version": "1.2",
     "repository": {
         "type": "git",
         "url": "git://github.com/setetres/sasstarter.git"
