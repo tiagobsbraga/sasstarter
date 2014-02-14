@@ -13,7 +13,7 @@ Version
 Plugins
 -------
 
-Starter use this:
+Sasstarter use this:
 
 * [Normalize.css] - A modern, HTML5-ready alternative to CSS resets.
 * [jQuery] - A fast, small, and feature-rich JavaScript library.
@@ -32,7 +32,7 @@ Structure
 │   │   ├── main-responsive.css  (sass output)
 │   │   └── normalize.css        (aplha male of css resets)
 │   ├── sass/
-│   │   ├── main.sass            (basic css configuration)
+│   │   ├── main.sass            (basic sass configuration)
 │   │   ├── main-responsive.sass
 │   │   │   ├── 4col             (mobile - portrait view)
 │   │   │   ├── 6col             (mobile - landscape view)
