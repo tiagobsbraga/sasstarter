@@ -1,5 +1,5 @@
 Sasstarter
-=======
+==========
 
 A quick-start responsive framework for frontend development with Sass.
 
@@ -8,12 +8,12 @@ A quick-start responsive framework for frontend development with Sass.
 Version
 -------
 
-1.2 (#e32e21)
+1.3.0 (#e32e21)
 
 Plugins
 -------
 
-Sasstarter use this:
+Starter use this:
 
 * [Normalize.css] - A modern, HTML5-ready alternative to CSS resets.
 * [jQuery] - A fast, small, and feature-rich JavaScript library.
@@ -26,28 +26,66 @@ Structure
 ---------
 
 ```
-├── sasstarter/
+├── sassstarter/
 │   ├── css/
-│   │   ├── main.css            (basic css configuration)
-│   │   ├── main-responsive.css
-│   │   │   ├── 4col            (mobile - portrait view)
-│   │   │   ├── 6col            (mobile - landscape view)
-│   │   │   ├── 9col            (for devices with 800 wide)
-│   │   │   ├── 12col           (for devices with 1024 wide)
-│   │   │   └── 15col           (for devices with 1280+ wide)
-│   │   └── normalize.css       (aplha male of css resets)
+│   │   ├── main.css             (sass output)
+│   │   ├── main-responsive.css  (sass output)
+│   │   └── normalize.css        (aplha male of css resets)
+│   ├── sass/
+│   │   ├── main.sass            (basic css configuration)
+│   │   ├── main-responsive.sass
+│   │   │   ├── 4col             (mobile - portrait view)
+│   │   │   ├── 6col             (mobile - landscape view)
+│   │   │   ├── 9col             (for devices with 800 wide)
+│   │   │   ├── 12col            (for devices with 1024 wide)
+│   │   │   └── 15col            (for devices with 1280+ wide)
 │   ├── img/
-│   │   └── loading.gif         (fake 'loading' background)
+│   │   └── loading.gif          (fake 'loading' background)
 │   └── js/
-│       ├── functions.js        (for your functions and shit)
-│       ├── grid.js             (the visual guide for your layout)
-│       ├── jquery.js           (jquery library)
-│       ├── modernizr.js        (html5 + css3 for the masses)
-│       └── plugins.js          (you can add more plugins here)
+│       ├── functions.js         (for your functions and shit)
+│       ├── grid.js              (the visual guide for your layout)
+│       ├── jquery.js            (jquery library)
+│       ├── modernizr.js         (html5 + css3 for the masses)
+│       └── plugins.js           (you can add more plugins here)
 ├── .gitignore
-├── README.md                   (you're reading it right now)
-├── favicon.ico                 (16x16 of pure art)
-└── index.html                  (duh!)
+├── README.md                    (you're reading it right now)
+├── bower.json                   (for installation via bower)
+├── favicon.ico                  (16x16 of pure art)
+└── index.html                   (duh!)
+```
+
+Installation via [Bower]
+------------------------
+
+```
+bower install sasstarter
+```
+
+Using Sass
+----------
+
+To install Sass, start Command Prompt with Ruby and type
+
+```
+gem install sass
+```
+
+Running Sass:
+
+```
+sass sass/main.sass css/main.css
+```
+
+Compile with:
+
+```
+sass --watch sass/main.sass:css/main.css
+```
+
+Compile with (compressed):
+
+```
+sass --watch sass/main.sass:css/main.css --style compressed
 ```
 
 License
@@ -55,6 +93,8 @@ License
 
 Sasstarter is under a [Creative Commons Attribution License].
 
+
+[Bower]: http://github.com/bower/bower
 [Normalize.css]: http://github.com/necolas/normalize.css
 [jQuery]: http://github.com/jquery/jquery
 [jQuery Easing]: http://github.com/gdsmith/jquery.easing
