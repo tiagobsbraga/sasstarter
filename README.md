@@ -64,7 +64,7 @@ bower install sasstarter
 Using Sass
 ----------
 
-To install Sass, start Command Prompt with Ruby and type
+To install Sass
 
 ```
 gem install sass
