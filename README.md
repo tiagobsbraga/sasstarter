@@ -64,13 +64,13 @@ bower install sasstarter
 Using Sass
 ----------
 
-To install Sass
+Install Sass
 
 ```
 gem install sass
 ```
 
-Running Sass:
+Run Sass:
 
 ```
 sass sass/main.sass css/main.css
