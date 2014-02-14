@@ -2,7 +2,7 @@
     "name": "sasstarter",
     "version": "1.3.0",
     "main": {
-        "css": ["css/main.sass", "css/main-responsive.sass"],
+        "sass": ["sass/main.sass", "sass/main-responsive.sass"],
         "javascript": ["js/functions.js"]
     },
     "repository": {
