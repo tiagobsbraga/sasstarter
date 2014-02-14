@@ -61,7 +61,7 @@ Installation via [Bower]
 bower install sasstarter
 ```
 
-Using Sass
+Using [Sass]
 ----------
 
 Install Sass
@@ -93,8 +93,8 @@ License
 
 Sasstarter is under a [Creative Commons Attribution License].
 
-
 [Bower]: http://github.com/bower/bower
+[Sass]: http://github.com/nex3/sass
 [Normalize.css]: http://github.com/necolas/normalize.css
 [jQuery]: http://github.com/jquery/jquery
 [jQuery Easing]: http://github.com/gdsmith/jquery.easing
