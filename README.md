@@ -74,18 +74,21 @@ Run Sass:
 
 ```
 sass sass/main.sass css/main.css
+sass sass/main-responsive.sass css/main-responsive.css
 ```
 
 Compile with:
 
 ```
 sass --watch sass/main.sass:css/main.css
+sass --watch sass/main-responsive.sass:css/main-responsive.css
 ```
 
 Compile with (compressed):
 
 ```
 sass --watch sass/main.sass:css/main.css --style compressed
+sass --watch sass/main-responsive.sass:css/main-responsive.css --style compressed
 ```
 
 License
