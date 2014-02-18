@@ -26,7 +26,7 @@ Structure
 ---------
 
 ```
-├── sassstarter/
+├── sasstarter/
 │   ├── css/
 │   │   ├── main.css             (sass output)
 │   │   ├── main-responsive.css  (sass output)
