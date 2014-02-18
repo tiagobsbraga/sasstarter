@@ -29,7 +29,6 @@ Structure
 ├── sasstarter/
 │   ├── css/
 │   │   ├── main.css             (sass output)
-│   │   ├── main-responsive.css  (sass output)
 │   │   └── normalize.css        (aplha male of css resets)
 │   ├── sass/
 │   │   ├── main.sass            (basic sass configuration)
@@ -39,7 +38,7 @@ Structure
 │   │   │   ├── 9col             (for devices with 800 wide)
 │   │   │   ├── 12col            (for devices with 1024 wide)
 │   │   │   └── 15col            (for devices with 1280+ wide)
-│   │   └── mixins.sass          (@font-face)
+│   │   └── mixins.sass          (beautiful mixins)
 │   ├── img/
 │   │   └── loading.gif          (fake 'loading' background)
 │   └── js/
@@ -75,21 +74,18 @@ Run Sass:
 
 ```
 sass sass/main.sass css/main.css
-sass sass/main-responsive.sass css/main-responsive.css
 ```
 
 Compile with:
 
 ```
 sass --watch sass/main.sass:css/main.css
-sass --watch sass/main-responsive.sass:css/main-responsive.css
 ```
 
 Compile with (compressed):
 
 ```
 sass --watch sass/main.sass:css/main.css --style compressed
-sass --watch sass/main-responsive.sass:css/main-responsive.css --style compressed
 ```
 
 License
