@@ -39,6 +39,7 @@ Structure
 │   │   │   ├── 9col             (for devices with 800 wide)
 │   │   │   ├── 12col            (for devices with 1024 wide)
 │   │   │   └── 15col            (for devices with 1280+ wide)
+│   │   └── mixins.sass          (@font-face)
 │   ├── img/
 │   │   └── loading.gif          (fake 'loading' background)
 │   └── js/
