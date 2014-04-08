@@ -32,13 +32,12 @@ Structure
 │   │   └── normalize.css        (aplha male of css resets)
 │   ├── sass/
 │   │   ├── main.sass            (basic sass configuration)
-│   │   ├── main-responsive.sass
-│   │   │   ├── 4col             (mobile - portrait view)
-│   │   │   ├── 6col             (mobile - landscape view)
-│   │   │   ├── 9col             (for devices with 800 wide)
-│   │   │   ├── 12col            (for devices with 1024 wide)
-│   │   │   └── 15col            (for devices with 1280+ wide)
-│   │   └── mixins.sass          (beautiful mixins)
+│   │   └── main-responsive.sass
+│   │       ├── 4col             (mobile - portrait view)
+│   │       ├── 6col             (mobile - landscape view)
+│   │       ├── 9col             (for devices with 800 wide)
+│   │       ├── 12col            (for devices with 1024 wide)
+│   │       └── 15col            (for devices with 1280+ wide)
 │   ├── img/
 │   │   └── loading.gif          (fake 'loading' background)
 │   └── js/
