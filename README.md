@@ -3,7 +3,7 @@ Sasstarter
 
 A quick-start responsive framework for frontend development with Sass.
 
-![Sasstarter](http://file.setetres.st/img/starter-header.gif?v=1.2&raw=true)
+![Sasstarter](http://file.setetres.st/img/starter-header.gif?v=1.4&raw=true)
 
 Version
 -------
