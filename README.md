@@ -8,7 +8,7 @@ A quick-start responsive framework for frontend development with Sass.
 Version
 -------
 
-1.3.0 (#e32e21)
+1.4.0 (#bef202)
 
 Plugins
 -------
@@ -92,6 +92,11 @@ License
 
 Sasstarter is under a [Creative Commons Attribution License].
 
+-------
+
+A [Seventy Three] Project.
+
+[Seventy Three]: http://setetres.st
 [Bower]: http://github.com/bower/bower
 [Sass]: http://github.com/nex3/sass
 [Normalize.css]: http://github.com/necolas/normalize.css

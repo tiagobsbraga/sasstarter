@@ -30,16 +30,16 @@ function createGrid () {
             top: "0",
             left: colLeft,
             bottom: "0",
-            background: "#e32e21",
+            background: "#BEF202",
             opacity: 0.5,
             fontFamily: "Courier New",
             fontSize: "11px",
             lineHeight: "22px",
             textAlign: "center",
-            color: "#f2f2f2"
+            color: "#000100"
         });
         colCount++;
-    };
+    }
 }
 
 function createSwitch () {
@@ -56,13 +56,13 @@ function createSwitch () {
         lineHeight: "30px",
         textAlign: "center",
         cursor: "pointer",
-        color: "#f2f2f2"
+        color: "#F2F2F2"
     });
 
     $('body').delegate('#grid-switch', 'click', function() {
         $(this).text(this.innerHTML == "hide" ? 'show' : 'hide');
         $(this).attr('rel',this.rel == "on" ? 'off' : 'on');
-        ($('#grid').is(':visible') ? $('#grid').hide() : $('#grid').show());
+        $($('#grid').is(':visible') ? $('#grid').hide() : $('#grid').show());
         createGrid();
     });
 }
