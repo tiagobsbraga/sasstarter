@@ -54,7 +54,7 @@ sasstarter/
 │       ├── 12col               (for devices with 1024 wide)
 │       └── 15col               (for devices with 1280+ wide)
 │
-├── .gitignore                  (ignore this. ignore that.)
+├── .gitignore                  (ignore this. ignore that)
 ├── README.md                   (you're reading it right now)
 ├── bower.json                  (for installation via bower)
 ├── favicon.ico                 (16x16 of pure art)
