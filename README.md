@@ -26,38 +26,39 @@ Structure
 ---------
 
 ```
-├── sasstarter/
-│   ├── css/
-│   │   ├── main.css             (sass output)
-│   │   └── normalize.css        (aplha male of css resets)
-│   │
-│   ├── img/
-│   │   └── loading.gif          (fake 'loading' background)
-│   │
-│   ├── js/
-│   │   ├── functions.js         (for your functions and shit)
-│   │   ├── grid.js              (the visual guide for your layout)
-│   │   ├── jquery.js            (jquery library)
-│   │   ├── modernizr.js         (html5 + css3 for the masses)
-│   │   └── plugins.js           (you can add more plugins here)
-│   │
-│   ├── psd/
-│   │   └── grid.psd             (for designers)
-│   │
-│   └── sass/
-│       ├── main.sass            (basic sass configuration)
-│       └── main-responsive.sass
-│           ├── 4col             (mobile - portrait view)
-│           ├── 6col             (mobile - landscape view)
-│           ├── 9col             (for devices with 800 wide)
-│           ├── 12col            (for devices with 1024 wide)
-│           └── 15col            (for devices with 1280+ wide)
+sasstarter/
 │
-├── .gitignore                   (ignore this. ignore that.)
-├── README.md                    (you're reading it right now)
-├── bower.json                   (for installation via bower)
-├── favicon.ico                  (16x16 of pure art)
-└── index.html                   (duh!)
+├── css/
+│   ├── main.css                (sass output)
+│   └── normalize.css           (aplha male of css resets)
+│
+├── img/
+│   └── loading.gif             (fake 'loading' background)
+│
+├── js/
+│   ├── functions.js            (for your functions and shit)
+│   ├── grid.js                 (the visual guide for your layout)
+│   ├── jquery.js               (jquery library)
+│   ├── modernizr.js            (html5 + css3 for the masses)
+│   └── plugins.js              (you can add more plugins here)
+│
+├── psd/
+│   └── grid.psd                (for designers)
+│
+│── sass/
+│   ├── main.sass               (basic sass configuration)
+│   └── main-responsive.sass
+│       ├── 4col                (mobile - portrait view)
+│       ├── 6col                (mobile - landscape view)
+│       ├── 9col                (for devices with 800 wide)
+│       ├── 12col               (for devices with 1024 wide)
+│       └── 15col               (for devices with 1280+ wide)
+│
+├── .gitignore                  (ignore this. ignore that.)
+├── README.md                   (you're reading it right now)
+├── bower.json                  (for installation via bower)
+├── favicon.ico                 (16x16 of pure art)
+└── index.html                  (duh!)
 ```
 
 Installation via [Bower]
