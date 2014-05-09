@@ -8,7 +8,7 @@ A quick-start responsive framework for frontend development with Sass.
 Version
 -------
 
-1.4.0 (#bef202)
+1.4.1 (#bef202)
 
 Plugins
 -------
