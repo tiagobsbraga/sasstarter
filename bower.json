@@ -1,10 +1,6 @@
 {
     "name": "sasstarter",
-    "version": "1.4.2",
-    "main": {
-        "sass": ["sass/main.sass", "sass/main-responsive.sass"],
-        "javascript": ["js/functions.js"]
-    },
+    "version": "1.0.0",
     "repository": {
         "type": "git",
         "url": "git://github.com/setetres/sasstarter.git"
@@ -18,8 +14,15 @@
         "frontend",
         "starter"
     ],
+    "dependencies":{
+      "jquery": "2.1.1",
+      "jquery-easing": "latest",
+      "modernizr": "2.7.1"
+    },
     "ignore": [
         ".gitignore",
-        "bower.json"
+        "bower.json",
+        "sass",
+        "psd"
     ]
 }
