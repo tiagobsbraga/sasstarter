@@ -57,7 +57,7 @@ sasstarter/
 └── index.html                  (duh!)
 ```
 
-Installation via [Bower]
+Installation dependencies with [Bower]
 ------------------------
 
 ```
