@@ -8,7 +8,7 @@ A quick-start responsive framework for frontend development with Sass.
 Version
 -------
 
-1.4.2 (#bef202)
+1.0.0 (#bef202)
 
 Plugins
 -------
@@ -18,8 +18,6 @@ Sasstarter use this:
 * [Normalize.css] - A modern, HTML5-ready alternative to CSS resets.
 * [jQuery] - A fast, small, and feature-rich JavaScript library.
 * [jQuery Easing] - A jQuery plugin to give advanced easing options.
-* [FitVids] - A lightweight, easy-to-use jQuery plugin for fluid width video embeds.
-* [FullScreenBg] - A small jQuery plugin that allows you to create fullscreen background.
 * [Modernizr] - JavaScript library that detects HTML5 and CSS3 features in the user’s browser.
 
 Structure
@@ -27,6 +25,7 @@ Structure
 
 ```
 sasstarter/
+├── bower_components/
 │
 ├── css/
 │   ├── main.css                (sass output)
@@ -36,11 +35,8 @@ sasstarter/
 │   └── loading.gif             (fake 'loading' background)
 │
 ├── js/
-│   ├── functions.js            (for your functions and shit)
+│   ├── main.js                 (main js file application)
 │   ├── grid.js                 (the visual guide for your layout)
-│   ├── jquery.js               (jquery library)
-│   ├── modernizr.js            (html5 + css3 for the masses)
-│   └── plugins.js              (you can add more plugins here)
 │
 ├── psd/
 │   └── grid.psd                (for designers)
@@ -102,7 +98,7 @@ Sasstarter is under a [Creative Commons Attribution License].
 
 -------
 
-A [Seventy Three] Project.
+Copy of [Seventy Three] Project.
 
 [Seventy Three]: http://setetres.st
 [Bower]: http://github.com/bower/bower
@@ -110,7 +106,5 @@ A [Seventy Three] Project.
 [Normalize.css]: http://github.com/necolas/normalize.css
 [jQuery]: http://github.com/jquery/jquery
 [jQuery Easing]: http://github.com/gdsmith/jquery.easing
-[FitVids]: http://github.com/davatron5000/FitVids.js
-[FullScreenBg]: http://github.com/Gaya/Fullscreen-Background-jQuery-plugin
 [Modernizr]: http://github.com/Modernizr/Modernizr
 [Creative Commons Attribution License]: http://creativecommons.org/licenses/by/4.0
